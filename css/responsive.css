@@ -1,0 +1,295 @@
+
+@media only screen and (max-width: 1240px) {
+	.transform-div{
+		left: 0;
+	}
+	.slider .pinkBorderBox{
+		display: none;
+	}
+	#Body .cocktail-detail a.black-link {
+		position: relative;
+		right: 0;
+		top: 0;
+		transform: rotate(360deg);
+		margin: 20px 0 0 0;
+		display: inline-block;
+	}
+
+}
+@media only screen and (max-width: 992px) {
+	.container{
+		width: auto;
+		padding: 0 15px;
+	}
+	.classics .transform-div,
+	.classics .transform-div.fireside-stir,
+	.classics .transform-div.rose-tonic,
+	.our-signatures .transform-div{
+		left: 0;
+		top: 0;
+		position: relative;
+		transform: rotate(360deg);
+		padding: 0 15px;
+		width: 100%;
+		
+	}
+	.classics .col-sm-offset-2,
+	.our-signatures .col-sm-offset-2{
+		margin-left: 0;
+	}
+	.classics .col-sm-6,
+	.classics .col-sm-4,
+	.our-signatures .col-sm-6,
+	.our-signatures .col-sm-4
+	{
+		width: 100%;
+	}
+	.classics .img-holder,
+	.our-signatures .img-holder {
+		margin: 0 auto 30px auto;
+	}
+	.bottled-cocktails .transform-div{
+		left: -60px;
+	}
+	
+}
+@media only screen and (max-width: 800px) {
+	
+}
+
+@media only screen and (max-width: 767px) {
+	/*Contact page*/
+	.our-newsletter .form-control{
+		width: 100%;
+	}
+	.submit{
+		margin: 0;
+		padding: 10px 0 8px 0;
+	}
+	.stay-in-touch .black-title,
+	.detail-text,
+	.drinks-content p.text,
+	.drinks-content p.pink-text,
+	.classics .img-holder,
+	.our-signatures .img-holder,
+	.cocktail-from-who-content p.pink-text,
+	.cocktail-from-who-content p.black-description{
+		width: 100%;
+	}
+	.tabing .nav-tabs,
+	.detail-text,
+	.kuchenhaus-detail .black-description,
+	.cocktail-from-who-content p.pink-text,
+	.cocktail-detail .small-description,
+	.logo{
+		padding: 30px 0;
+	}
+	.bottled-cocktails .how-this-work h4.main-title{
+		padding: 30px 0;
+		margin: 0;
+	}
+	.stay-in-touch .order-detail,
+	.order-cocktail,
+	.classics .row.position,
+	.kuchenhaus,
+	.cocktail-info,
+	.cocktail-from-who-content,
+	.our-menu,
+	.bottled-cocktails{
+		padding: 0 0 40px 0;
+	}
+	.our-newsletter,
+	.cocktail-detail {
+		padding: 40px 0;
+	}
+	.big-title,
+	.transform-text {
+		font-size: 40px;
+	}
+	h4.black-title,
+	.main-title,
+	.about-deal-services .pink-text{
+		font-size: 30px;
+		
+	}
+	.order-detail .pink-title{
+		font-size: 16px;
+	}
+	.Top-bar,
+	.about-deal-services,
+	.classics,
+	.how-it-works
+	{
+		padding: 40px 0;
+	}
+	/*idea*/
+	.idea.letter-i,
+	.the-press,
+	.idea.letter-l,
+	.deal-content,
+	.menu-item{
+		padding: 0 0 30px 0;
+	}
+	.pinkBorderBox img,
+	.idea.letter-l .transform-div,
+	.idea .main-title,
+	.idea .how-this-work p,
+	.about-deal-services p,
+	.how-this-work p,
+	.drinks .how-this-work p,
+	.how-it-works-detail,
+	.details,
+	.kuchenhaus-detail .black-description,
+	.cocktail-detail .small-description{
+		width: 100%;
+	}
+	.transform-div{
+		position: relative;
+		transform: rotate(360deg);
+		width: 100%;
+		padding: 0 15px;
+		left: 0;
+		bottom: 0;
+		
+	}
+	.transform-text{
+		padding: 0 0 30px 0;
+		display: block;
+	}
+	.idea .how-this-work p,
+	.drinks .how-this-work p{
+		padding: 30px 0 0 0;
+	}
+	.about-deal-services .m-b-l{
+		margin: 0;
+	}
+	.transform-text{
+		text-align: left;
+	}
+	#Body .our-signatures a.pink-link,
+	.cocktail-catering.m-t-s{
+		margin: 40px 0;
+	}
+	.display-table,
+	.table-cell{
+		display: block;
+		
+	}
+	.see-our-menu .menu-list a.link{
+		font-size: 18px;
+	}
+	.see-our-menu,
+	.cocktail-description p{
+		padding: 30px 0;
+	}
+	.only-mob{
+		display: block;
+	}
+	.bottled-cocktails .transform-div{
+		left: 0;
+	}
+	.m-t-l,
+	.m-t-s{
+		margin: 40px 0 0 0;
+	}
+	.cocktail-description{
+		padding: 0;
+	}
+	.cocktail-detail,
+	.social,
+	.dropdown{
+		text-align: center;
+	}
+
+	.cocktail-info{
+		margin: 0 auto;
+	}
+	.letter-b{
+		background-position: 51% 100%;
+	}
+	.letter-b-drinks,
+	.letter-f,
+	.letter-r,
+	.letter-p,
+	.drinks.letter-d{
+		background-position: center 100%;
+	}
+	
+	
+}
+@media only screen and (max-width: 640px) {
+	.navigation{
+		overflow: auto;
+	}
+	.navigation li:last-child{
+		margin: 50px 0;
+	}
+	.press-image{
+		float: left;
+	}
+	.the-press .col-xs-4,
+	.the-press .col-xs-8{
+		width: 100%;
+	}
+	.the-press h4.black-title{
+		padding: 30px 0;
+	}
+	.col-xs-4 .idea-list{
+		float: left;
+		padding: 0 0 0 40px;
+	}
+}
+@media only screen and (max-width: 460px){
+	.form label{
+		margin: 0 4px 0 0;
+	}
+	.press-image,
+	.the-press .col-xs-6
+	{
+		width: 100%;
+	}
+	.col-xs-4 .idea-list{
+		padding: 0;
+	}
+}
+@media only screen and (max-width: 400px) {
+
+	
+	
+	a.nav-hide, a.nav-hide:link, a.nav-hide:visited{
+		top: 20px;
+    	right: 20px;
+	}
+	.tabing .nav-tabs{
+		width: 100%;
+	}
+	.nav-tabs>li{
+		width: 50%;
+	}
+	.tabing .nav-tabs>li>a{
+		width: auto;
+	}
+	.letter-d:after{
+		left: 0;
+	}
+	.letter-i:after,
+	.letter-i:after{
+		display: none;
+	}
+	#carousel-example-generic .item img{
+		height: 250px;
+	}
+	.cocktail-description a{
+		font-size: 18px;
+	}
+	.letter-b-drinks,
+	.letter-f,
+	.letter-r,
+	.letter-p{
+		background-position: center 80%;
+	}
+	
+}
+@media only screen and (max-width: 360px){
+	
+}

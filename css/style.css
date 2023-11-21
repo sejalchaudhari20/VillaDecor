@@ -1,0 +1,887 @@
+
+/* Comman CSS */
+/********************************************************************/
+*{
+	margin: 0;
+	padding: 0;
+}	
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table,
+caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	background: transparent;
+	color: #000;
+	font-size: 15px;
+}
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+:focus {
+  outline: none;
+}
+
+ins {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+form {
+  height: 100%;
+}
+
+img {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+	font-family: "filosofia,serif";
+	font-weight: 400;
+}
+.display-table{
+	display: table;
+	width: 100%;
+}
+.table-cell{
+	display: table-cell;
+	vertical-align: middle;
+	float: none;
+}
+.container{
+	width: 950px;
+}
+.pink-title{
+	color: #e13a49;
+	letter-spacing: 3px;
+	font-family:"azo-sans-web";
+	text-transform: uppercase;
+	padding: 0 0 30px 0;
+	display: inline-block;
+	border-bottom: 2px solid #e13a49;
+}
+
+h4.black-title{
+	font-size: 41px;
+	color: #000;
+}
+p.black-description{
+	font-size: 23px;
+}
+.small-description{
+	font-size: 13px;
+}
+#Body a.pink-link{
+	color: #e13a49;
+	border-bottom: 2px solid #e13a49;
+	padding: 0 0 8px 0;
+	font-size: 25px;
+}
+#Body a.black-link{
+	
+	border-bottom: 2px solid #000;
+	padding: 0 0 8px 0;
+	font-size: 25px;
+}
+.green-text{
+	color: #00ad61;
+}
+.pink-text{
+	color: #e13a49;
+}
+.main-title{
+	font-size: 41px;
+}
+p.text{
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.big-title{
+	font-size: 90px;
+}
+#Body .no-margin{
+	margin: 0;
+}
+.margin-bottom{
+	margin-bottom: 30px;
+}
+.m-b-l{
+	margin-bottom: 95px;
+}
+
+/* Text CSS */
+/********************************************************************/
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+	padding: 0;
+}
+h4{
+	font-weight: 400;
+}
+
+ul, ol, li {
+  margin: 0;
+  padding: 0;
+}
+
+ol li, ul li {
+	list-style: none;
+}
+
+sup {
+  vertical-align: top;
+  font-size: 8px;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Link CSS */
+/********************************************************************/
+a,
+a:link,
+a:visited{
+	font-size: inherit;
+	line-height: inherit;
+	
+}	
+a:hover,
+a:active,
+a:focus{
+	color: #000;
+	text-decoration: none;
+	background-color: transparent;
+}
+.nav>li>a:hover{
+	background-color: transparent;
+}
+
+/* Button CSS */
+/********************************************************************/
+a.pink-title:hover{
+	color: #e13a49;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+.body-bg{
+	background-color: #fffafa;
+}
+.white-bg{
+	background-color: #fff;
+}
+.only-mob{
+	display: none;
+}
+.pinkBorderBox img {
+    position: relative;
+    z-index: 1;
+}
+.pinkBorderBox:after {
+    bottom: -8px;
+    content: '';
+    left: 5px;
+    position: absolute;
+    right: -8px;
+    top: 5px;
+    border: 8px solid #fadce1;
+    z-index: 0;
+}
+.transform-div{
+	position: absolute;
+	width: 340px;
+	z-index: 3;
+	left: 14%;
+	transform: translate(0, -14%) rotate(-90deg);
+}
+.bottled-cocktails{
+	padding: 0 0 130px 0;
+}
+.bottled-cocktails .transform-div{
+	bottom: 29%;
+}
+.deal .transform-div{
+	bottom: 26%;
+}
+.transform-text{
+	color: #e13a49;
+	font-size: 70px;
+	display: inline-block;
+	text-align: right;
+}
+.no-padding{
+	padding: 0;
+}
+.bg{
+	position: relative;
+}
+/* Top bar */
+/********************************************************************/
+.Top-bar{
+	padding: 30px 0 115px 0;
+}
+.Top-bar .row.display-table{
+	margin: 0;
+}
+.logo{
+	text-align: center;
+}
+.logo a{
+	display: inline-block;
+}
+.logo a img{
+	margin: 0 auto;
+	display: block;
+}
+.dropdown .btn{
+	background-color: transparent;
+	padding: 0;
+}
+.skNav{
+	text-align: right;
+}
+
+/*slider*/
+/********************************************************************/
+#cocktail{
+	display: block;
+}
+#cocktail li{
+	float: left;
+	position: relative;
+}
+#cocktail li img{
+	width: 100%;
+}
+.caption p{
+	padding: 20px 0;
+}
+#carousel-example-generic .carousel-control{
+	background-image: none;
+	position: absolute;
+	bottom: 20px;
+	display: inline-block;
+	width: auto;
+	height: auto;
+	top: auto;
+	opacity: 1;
+}
+.carousel-control.left{
+	left: 15px;
+}
+.carousel-control.right{
+	right: 15px;
+}
+#carousel-example-generic .item img{
+	width: 100%;
+	height: 430px	
+}
+
+.cocktail-description p
+{
+	font-size: 23px;
+	padding: 25px 0 60px 0;
+}
+.cocktail-description{
+	padding: 0 0 0 21px;
+}
+.cocktail-description a{
+	border-bottom: 2px solid #000;
+	font-size: 25px;
+	padding: 0 10px;
+	margin: 0 15px;
+}
+.slider .pinkBorderBox{
+	width: 452px;
+	height: 491px;
+	position: absolute;
+	top: 8px;
+	right: -8px;
+	border: 8px solid #fadce1;
+	border-left: transparent;
+	border-top: transparent;
+	background-color: transparent;
+	z-index: -1;
+}
+
+#carousel-example-generic .pinkBorderBox:after{
+	display: none;
+}
+.top-button a{
+	border-bottom: 1px solid #919191;
+	font-size: 25px;
+	color: #919191;
+}
+.cocktail-from-who-content p.black-description{
+	width: 66%;
+	margin: 0 auto;
+	font-size: 15px;
+}
+.cocktail-from-who-content p.pink-text{
+	padding: 65px 0 60px 0;
+	font-size: 23px;
+	position: relative;
+	width: 55%;
+	margin: 0 auto;
+}
+.cocktail-from-who-content p.pink-text:after{
+	content: "";
+	position: absolute;
+	background-color: #f09ca4;
+	width: 126px;
+	height: 2px;
+	bottom: 12%;
+	left: 50%;
+	transform: translate(-50%, -12%);
+}
+.tabing .nav-tabs{
+	text-align: center;
+	border: 0;
+	display: inline-block;
+	padding: 60px 0 40px 0;
+}
+.tabing .nav-tabs>li.active>a, 
+.tabing .nav-tabs>li.active>a:focus, 
+.tabing .nav-tabs>li.active>a:hover{
+	background-color: #fdf0f2;
+	border-color: transparent;
+	color: #e13a49;
+}
+.tabing .nav-tabs>li>a{
+	border: 1px solid #fdf0f2;
+	margin: 0;
+	border-radius: 0;
+	color: #919191;
+	width: 173px;
+}
+.form .form-control,
+.our-newsletter .form-control{
+	border: 0;
+	border-bottom: 1px solid #7f7f7f;
+	border-radius: 0;
+	box-shadow: none;
+	padding: 6px 0px;
+}
+.form .form-group{
+	margin: 0 0 30px 0;
+}
+.form .check-box{
+	text-align: left;
+}
+.form label{
+	margin: 0 60px 0 0;
+	font-weight: 400;
+	color: #919191;
+}
+.detail-text{
+	width: 45%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 50px 0 35px 0;
+}
+.detail-text span{
+	text-decoration: underline;
+}
+.order-detail .pink-title{
+	padding: 0 0 10px 0;
+	font-size: 20px;
+}
+.kuchenhaus-detail .black-description{
+	width: 55%;
+	margin: 0 auto;
+	padding: 55px 0 50px 0;
+}
+.kuchenhaus-detail .green-text{
+	font-size: 25px;
+	color: #00ad61;
+	border-bottom: 2px solid #00ad61;
+	padding: 0 0 10px 0;
+}
+.order-cocktail{
+	padding: 112px 0 190px 0;
+}
+.kuchenhaus{
+	padding: 0 0 230px 0;
+}
+.our-newsletter .form-control{
+	width: 67%;
+	display: inline-block;
+}
+.submit{
+	padding: 0 0 8px 0;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	margin: 0 0 0 23px;
+}
+/* see-our-menu */
+/********************************************************************/
+.see-our-menu{
+	padding: 0 0 0 25px;
+}
+.see-our-menu .pink-title{
+	padding: 0 0 30px 0;
+	border: 0;
+	font-weight: 600;
+}
+.see-our-menu .menu-list li.item{
+	padding: 0 0 20px 0;
+}
+.see-our-menu .menu-list li.item:last-child{
+	padding: 0;
+}
+.see-our-menu .menu-list a.link{
+	border-bottom: 1px solid #000;
+	padding: 0 0 5px 0;
+	font-size: 25px;
+}
+.see-our-menu a.link i{
+	font-size: 20px;
+	padding: 0 0 0 5px;
+}
+
+.img-holder{
+	position: relative;
+}
+.how-this-work h4.main-title{
+	margin: 30px 0 0 0;
+}
+.how-this-work p{
+	width: 82%;
+}
+/*cocktail-detail*/
+/********************************************************************/
+.cocktail-detail{
+	padding: 150px 0 205px 0;
+}
+.cocktail-detail .small-description{
+	width: 90%;
+	padding: 20px 0 30px 0;
+}
+.cocktail-info{
+	width: 192px;
+}
+.cocktail-info img{
+	width: 100%;
+}
+.cocktail-detail .pinkBorderBox,
+.cocktail-info{
+	position: relative;
+}
+.cocktail-detail .caption h4{
+	font-size: 26px;
+	padding: 15px 0 0 0;
+}
+.transform-content p{
+	transform: rotate(-90deg);
+    display: inline-block;
+    position: absolute;
+    right: -85px;
+	top: 50px;
+	font-size: 17px;
+}
+.container.position{
+	position: relative;
+}
+.cocktail-detail a.black-link{
+	position: absolute;
+    right: -80px;
+    top: 50px;
+    transform: rotate(-90deg);
+}
+.m-t-s{
+	margin-top: 50px;
+}
+.m-t-m{
+	margin-top: 70px;
+}
+.m-t-l{
+	margin-top: 90px;
+}
+/*Our menu*/
+/********************************************************************/
+.our-menu{
+	padding: 0 0 130px 0;
+}
+.menu-item{
+	padding: 0 0 80px 0;
+}
+
+.our-menu h4.pink-title{
+	padding: 0 40px 30px 40px;
+	font-weight: 600;
+}
+.our-menu .img-holder{
+	height: 83px;
+}
+
+/*how it works*/
+/********************************************************************/
+.how-it-works{
+	padding: 130px 0 80px 0;
+}
+.how-it-works-detail ol{
+	padding: 0 0 0 15px;
+}
+.how-it-works-detail ol li{
+	list-style: decimal;
+	
+}
+.how-it-works li{
+	font-size: 17px;
+	font-weight: 400;
+	padding: 0 0 40px 0;
+}
+.how-it-works ul li:last-child{
+	padding: 0;
+}
+.how-it-works-detail,
+.details
+{
+	width: 75%;
+	margin: 0 auto;
+}
+.event-form .black-title{
+	width: 75%;
+	margin: 0 auto;
+}
+/*Menu*/
+/********************************************************************/
+.menu-item img{
+	margin: 0 auto;
+}
+h3.menu-title{
+	font-size: 31px;
+	font-weight: 400;
+}
+.menu-item p.description{
+	font-size: 13px;
+}
+.menu-item p.description.first{
+	margin: 0 0 8px 0;
+	font-size: 15px;
+}
+.menu-item p.price{
+	color: #e13a49;
+	margin: 10px 0 0 0;
+}
+.menu-item .margin-top img{
+	margin: 40px auto 0 auto;
+}
+/*Contact page*/
+/********************************************************************/
+.stay-in-touch .black-title{
+	width: 75%;
+	margin: 0 auto;
+}
+.our-newsletter{
+	padding: 55px 0 100px 0;
+}
+.stay-in-touch .order-detail{
+	padding: 0 0 100px 0;
+}
+
+/*Navigation*/
+/********************************************************************/
+#Menu{
+	margin: 70px 0 0 0;
+}
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    height: 100%;
+    width: 100%;
+    background: #f8cfd4;
+    z-index: 4;
+}
+.navigation li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+	position: relative;
+	margin: 0 0 25px 0;
+}
+.navigation li a{
+	font-size: 30px;
+	
+}
+.navigation li a.pink-title{
+	font-size: 25px;
+	padding: 0 0 8px 0;
+	text-transform: capitalize;
+} 
+.navigation li:first-child{
+	margin: 0 0 50px 0;
+}
+.navigation li:last-child{
+	margin: 50px 0 0 0;
+}
+a.nav-hide, a.nav-hide:link, a.nav-hide:visited {
+    position: absolute;
+    top: 55px;
+    right: 35px;
+    margin: 0;
+    height: 22px;
+    width: 23px;
+    text-align: center;
+}
+
+/*deal*/
+/********************************************************************/
+.about-deal-services{
+	padding: 160px 0 68px 0;
+}
+.about-deal-services .pink-text{
+	font-size: 41px;
+	padding: 0 0 12px 0;
+	
+}
+.about-deal-services p{
+	width: 90%;
+	margin: 0 auto;
+	line-height: 24px;
+}
+
+/*idea*/
+/********************************************************************/
+.idea .main-title{
+	width: 96%;
+}
+.idea.letter-i{
+	padding: 0 0 195px 0;
+}
+.idea.letter-l .transform-div{
+	width: 370px;
+	bottom: 38%;
+}
+.idea.letter-i .transform-div{
+	bottom: 63%;
+}
+.idea .how-this-work p{
+	font-size: 17px;
+	width: 93%;
+	padding: 40px 0 0 0;
+}
+.the-press{
+	padding: 90px 0;
+}
+.the-press h4.black-title{
+	padding: 0 0 30px 15px;
+}
+
+.press-image .pinkBorderBox{
+	position: relative;
+}
+.press-image .pinkBorderBox:before{
+	content: "";
+    position: absolute;
+    left: 50%;
+    width: 32px;
+    height: 16px;
+    background: url(../images/bottom-arrow.png) no-repeat center center;
+    z-index: 2;
+    bottom: -16px;
+    transform: translateX(-50%);
+}
+.press-image{
+	width: 179px;
+	margin: 0 0 20px 0;
+}
+.idea-list li{
+	color: #e13a49;
+	padding: 0 0 10px 0;
+}
+.col-xs-4 .idea-list li:last-child{
+	padding: 0;
+}
+.idea-list li span{
+	color: #000;
+	font-style: italic;
+}
+/*drinks*/
+/********************************************************************/
+.drinks .transform-div{
+	bottom: 43%;
+}
+
+.drinks .how-this-work p{
+	font-size: 17px;
+	width: 95%;
+	padding: 40px 0 0 0;
+}
+
+/*our-signatures*/
+/********************************************************************/
+.our-signatures .img-holder{
+	width: 285px;
+}
+.our-signatures h4.pink-title,
+.classics h4.pink-title{
+	font-weight: 600;
+	letter-spacing: 9px;
+	padding: 0 15px 30px 15px;
+	margin: 0 0 45px 0;
+}
+.our-signatures .transform-div
+{
+	left: 12%;
+	top: 195px;
+}
+.classics .transform-div{
+	left: -50px;
+    top: 210px;
+}
+.classics .transform-div.fireside-stir{
+	top: 85px;
+}
+.classics .transform-div.rose-tonic{
+	left: -75px;
+
+width: 430px;    
+top: 194px;
+}
+.classics{
+	padding: 160px 0 75px 0;
+}
+.classics .row.position{
+	padding-bottom: 145px;
+}
+#Body .our-signatures a.pink-link{
+	margin: 150px 0;
+	display: inline-block;
+}
+.drinks-content h4.black-title{
+	font-size: 15px;
+	font-family:"azo-sans-web";
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: 600;
+	padding: 15px 0 10px 0;
+	
+}
+.drinks-content p.pink-text.last{
+	padding: 5px 0 7px 0;
+
+}
+.drinks-content p.text{
+	width: 83%;
+	margin: 0 auto;
+}
+
+.drinks-content p.pink-text{
+	font-size: 15px;
+	width: 70%;
+	margin: 0 auto;
+}
+.classics .img-holder{
+	width: 285px;
+}
+/*Copy right*/
+/********************************************************************/
+.sroll-up{
+	padding: 0 0 40px 0;
+}
+
+.footer{
+	background-color: #f3f3f3;
+	padding: 15px 0;
+}
+.copy-right span{
+	font-size: 13px;
+	text-transform: capitalize;
+	padding: 0 10px 0 0;
+}
+/*Bg css*/
+/********************************************************************/
+.our-menu .img-holder.highball{
+	background: url(../images/highball.png) no-repeat center center;
+}
+.our-menu .img-holder.mint-julep{
+	background: url(../images/mint-julep.png) no-repeat center center;
+}
+.our-menu .img-holder.licketty-snap{
+	background: url(../images/licketty-snap.png) no-repeat center bottom;
+}
+.our-menu .img-holder.everfield-fizz{
+	background: url(../images/everfield-fizz.png) no-repeat center center;
+}
+.our-menu .img-holder.bounce-back{
+	background: url(../images/bounce-back.png) no-repeat center bottom;
+}
+.our-menu .img-holder.collins{
+	background: url(../images/collins.png) no-repeat center center;
+}
+.our-menu .img-holder.cocktail{
+	background: url(../images/cocktail.png) no-repeat center center;
+}
+.our-menu .img-holder.collin{
+	background: url(../images/collin.png) no-repeat center center;
+}
+.letter-f-bg{
+	background: url(../images/letter-f-bg.png) no-repeat center center;
+}
+.letter-c-bg{
+	background: url(../images/letter-c-bg.png) no-repeat center center;
+}
+.letter-l-bg{
+	background: url(../images/letter-l-bg.png) no-repeat center center;
+}
+.letter-e-bg{
+	background: url(../images/letter-e-bg.png) no-repeat center center;
+}
+.letter-b-bg{
+	background: url(../images/letter-b-bg.png) no-repeat center center;
+}
+.letter-o-bg{
+	background: url(../images/letter-o-bg.png) no-repeat center center;
+}
+.letter-h-bg{
+	background: url(../images/letter-h-bg.png) no-repeat center center;
+}
+.letter-b{
+	background: url(../images/letter-b.png) no-repeat 51% 80%;
+}
+.letter-c{
+    background: url(../images/letter-c.png) no-repeat 51% 80%;
+}
+.letter-k{
+    background: url(../images/letter-k.png) no-repeat 54% 15%;
+}
+.letter-d{
+	background: url(../images/letter-d.png) no-repeat center bottom;
+}
+.drinks.letter-d{
+	background: url(../images/letter-d.png) no-repeat 50% 64%;
+}
+.letter-p{
+	background: url(../images/letter-p.png) no-repeat 56% 33%;
+}
+.letter-r{
+	background: url(../images/letter-r.png) no-repeat 60% 75%;
+}
+.letter-f{
+	background: url(../images/letter-f.png) no-repeat 56% 35%;
+}
+.letter-b-drinks{
+	background: url(../images/letter-b-drinks.png) no-repeat 60% center;
+}

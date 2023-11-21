@@ -1,0 +1,259 @@
+
+@media (max-width: 1199px){
+    .testimonials-section .left-grid{
+        padding: 65px 40px 56px 40px;
+    }
+}
+@media (max-width: 991px){
+    .contact-content{
+        display: block;
+        margin: 0 0 15px 0;
+        line-height: 24px;
+    }
+    .contact .contact-now{
+        float: none;
+    }
+    .newsletter-section{
+        padding: 140px 0 50px 0;
+    }
+    .site-header .navigation .navbar-brand{
+        padding: 15px 0 15px 15px;
+    }
+    .navigation .navbar-brand {
+        margin-top: 4px;
+    }
+    .inner-page.navigation h2{
+        font-size: 25px;
+        padding: 0;
+    }
+    .testimonials-section .left-col-pic {
+        display: none;
+    }
+    .testimonials-section .left-grid {
+        width: 100%;
+        float: none;
+        background-color: #fff;
+        -webkit-box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.14);
+        box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.14);
+    }
+    .testimonials-section .right-grid {
+        width: 100%;
+        float: none;
+        padding: 65px 40px;
+    }
+    .testimonials-section .testimonials-grids {
+        padding: 0;
+    }
+    .contact-pg-section .contact-info-area{
+        padding: 0;
+        margin: 50px 0 0 0;
+    }
+    #navbar > ul > li > a {
+        padding: 40px 12px;
+    }
+    .contact-info ul li:first-child p{
+        line-height: 50px;
+    }
+    .contact {
+        margin-bottom: -87px;
+    }
+    .btns.float-right {
+        float: none;
+    }
+    .quotation-form-area {
+        margin: 0;
+    }
+}
+@media (max-width: 767px){
+    .top-bar,
+    .contact-inner:before,
+    .contact-inner:after,
+    .footer-nav li a:after,
+    .hero .owl-dots:before,
+     .hero .owl-dots:after{
+        display: none;
+    }
+    .contact-inner{
+        border: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .contact{
+        background-color: #f8f8f8;
+        transform: none;
+        padding: 30px 0;
+        margin: 0;
+    }
+    .contact-inner.gray-bg{
+        background-color: transparent;
+    }
+    .newsletter-section{
+        padding: 30px 0;
+    }
+    .footer-nav li{
+        display: block;
+        margin: 0 0 20px 0;
+    }
+    .menu-mobile {
+        display: inline-block;
+        float: right;
+    }
+    .navbar-toggle .icon-bar {
+        background-color: #23201f;
+    }
+    .navbar-toggle{
+        margin: 30px 15px 30px 0;
+    }
+    #navbar {
+        position: fixed;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        z-index: 9;
+    }
+    #navbar > ul > li > a{
+        padding: 10px;
+    }
+    .navbar-nav .open .dropdown-menu>li>a{
+        padding: 10px 30px;
+    }
+    .navbar-nav .open.dropdown-submenu .dropdown-menu>li>a{
+        padding: 10px 60px;
+    }
+    .nav .open>a, .nav .open>a:focus, .nav .open>a:hover,
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+        background-color: transparent;
+        
+    }
+    #navbar .caret{
+        float: right;
+        margin: 10px 0 0 0;
+    }
+    .dropdown-menu{
+        position: relative;
+        box-shadow: none;
+        border: 0;
+        width: 100%;
+    }
+    #navbar .navbar-nav {
+        margin: 0;
+    }
+    .site-header #navbar > ul li a{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    }
+    .img-center{
+        margin: 0 auto;
+    }
+    .section-padding{
+        padding: 40px 0;
+    }
+    .testimonials-section .left-grid,
+    .testimonials-section .right-grid {
+        padding: 50px 25px;
+    }
+    .testimonials-section .left-grid .details p {
+        margin-bottom: 0
+    }
+    .hero .owl-dots {
+        bottom: 10px;
+        top: auto;
+        transform: none;
+        width: 100%;
+        right: auto;
+    }
+    .hero .owl-theme .owl-dots .owl-dot{
+        display: inline-block;
+    }
+    
+    .hero .slide-subtitle h4{
+        font-size: 14px;
+    }
+    .hero .slide-caption h2{
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .hero .slide-caption h2{
+        margin: 30px 0;
+    }
+    .hero .owl-carousel .owl-item img{
+        min-height: 400px;
+    }
+    .section-title-s3 h2{
+        font-size: 35px;
+    }
+    .contact-pg-section .contact-pic img{
+        display: none;
+    }
+    .contact-pg-section .contact-form-area .contact-form-holder{
+        width: 100%;
+        position: static;
+        padding: 25px;
+        margin-top: 30px;
+    }
+    .contact-pg-section .contact-area-left-col p{
+        margin: 0;
+    }
+    .text{
+        margin: 30px 0;
+    }
+    .product-detail .img-holder img,
+    .hilux-img img,
+    .about-product img,
+    .about-logo,
+    .prefab-img img,
+    .drywall-img img{
+        margin: 0 auto 30px auto;
+    }
+    .product-detail .row.m-t-30{
+        margin-top: 0;
+    }
+    .product-detail .m-30{
+        padding: 0;
+    }
+    .plywood-img img{
+        margin: 30px 0 0 0;
+    }
+    
+}
+@media only screen and (min-width: 767px) {
+    ul.nav li.dropdown:hover > ul.dropdown-menu {
+        display: block;
+        margin-top:0px;
+    }
+    ul.nav li.dropdown-submenu:hover > ul.dropdown-menu {
+        display: block;
+        margin-top:0px;
+        display: block;
+        right: -160px;
+        top: 0;
+    }
+}
+@media (max-width: 575px){
+    .section-title h2{
+        font-size: 30px;
+        margin: 4px 0 0;
+    }
+    .section-title > span{
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    .section-title .transparent-text {
+        font-size: 60px;
+        top: -22px;
+    }
+    .section-title {
+        padding-left: 0;
+        margin-bottom: 30px;
+    }
+    .contact-info-area .contact-info p{
+        font-size: 13px;
+    }
+    .contact-info ul li:first-child p {
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 360px){
+    .testimonials-section .left-grid, .testimonials-section .right-grid {
+        padding: 30px 25px;
+    }
+}
